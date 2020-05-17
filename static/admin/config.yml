@@ -1,7 +1,7 @@
 backend:
-  name: test-repo
-  repo: sgd27/sgd27.github.ion
-  branch: master
+  name: github
+  repo: sgd27/sgd27.github.io
+  branch: gatsby-source
   site_domain: sgd27.netlify.com
 
 media_folder: static/assets
