@@ -1,0 +1,20 @@
+backend:
+  name: github
+  repo: sgd27/sgd27.github.io
+  branch: gatsby-source
+  site_domain: sgd27.netlify.com
+
+media_folder: static/assets
+public_folder: assets
+
+collections:
+  - name: blog
+    label: Blog
+    folder: content/blog
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: date }
+      - { name: title, label: Title }
+      - { name: description, label: Description }
+      - { name: body, label: Body, widget: markdown }
